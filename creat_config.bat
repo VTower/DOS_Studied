@@ -1,5 +1,7 @@
 @echo off
 
+::can be used ' %tmp%/name_tmp.tmp ' on windows
+
 if exist config.bat (call config.bat) else (goto cria)
 
 color %cor_fundo%%cor_letra%
@@ -27,3 +29,4 @@ echo set cor_letra=%cor_letra%
 echo set cor_fundo=%cor_fundo%
 echo set titulo=%titulo%
 )>config.bat
+::can be used ' %tmp%/name_tmp.tmp ' on windows
