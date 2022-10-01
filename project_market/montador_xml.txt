@@ -1,0 +1,151 @@
+REM objetivo , montar um arquivo que receba os dados da nossa tabela e sair em uma tabela de banco de dados basico 
+
+
+ 
+
+
+
+@echo off 
+
+
+:banana
+
+
+set banana_P01="banana"
+
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+
+:uva 
+
+set uva_P02="uva"
+
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+
+:laranja
+
+set laranja_P03="laranja"
+
+
+
+
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+REM .. . ..
+
+
+
+
+::Index
+
+
+(echo %banana%  &0
+
+
+	
+
+
+
+------------------------------
+
+set /a cont=0
+
+
+------------------------------
+set posi_%cont%="banana"  & set /a cont=%cont% + 1
+
+..............................
+
+
+(
+
+echo	%posi_1%	%posi_2%	%posi_3%
+echo	%posi_4%	%posi_5%	%posi_6%
+echo	%posi_7%	%posi_8%	%posi_9%
+echo	%posi_10%	%posi_11%	%posi_12%
+echo	%posi_13%	%posi_14%	%posi_15%
+echo	%posi_16%	%posi_17%	%posi_18%
+echo	%posi_19%	%posi_20%	%posi_21%
+
+)
+
+
+
+
+
+
+------------------------------
+
+
+Com classe~ de onde encontralas , hortfrute , frios , carnes, mercado , shopping etc
+
+
+
+------------------------------
+
+
+
+
+
+
+
+
+(
+echo.
+echo	Hortfrut	Market		Shopping
+echo.
+echo	   _1		   _2		   _3
+echo.
+echo	%posi_1_1%	%posi_2_2%	%posi_3_3%
+echo	%posi_4_1%	%posi_5_2%	%posi_6_3%
+echo	%posi_7_1%	%posi_8_2%	%posi_9_3%
+echo	%posi_10_1%	%posi_11_2%	%posi_12_3%
+echo	%posi_13_1%	%posi_14_2%	%posi_15_3%
+echo	%posi_16_1%	%posi_17_2%	%posi_18_3%
+echo	%posi_19_1%	%posi_20_2%	%posi_21_3%
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
